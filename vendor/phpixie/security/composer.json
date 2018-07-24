@@ -1,0 +1,35 @@
+{
+    "name": "phpixie/security",
+    "description": "SEcurity library for PHPixie",
+    "keywords": ["security", "password", "random", "token"],
+    "homepage": "http://phpixie.com",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Roman Tsiupa",
+            "email": "draconyster@gmail.com",
+            "homepage": "http://dracony.org"
+        }
+    ],
+    "require": {
+        "phpixie/slice": "~3.0",
+        "phpixie/database": "~3.0",
+        "paragonie/random_compat":"^1|^2",
+        "ircmaxell/password-compat":"^1.0"
+    },
+    "require-dev": {
+        "phpixie/test": "~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHPixie\\": "src/PHPixie",
+            "PHPixie\\Tests\\": "tests/PHPixie/Tests"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.x-dev"
+        }
+    }
+}

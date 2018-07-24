@@ -1,0 +1,35 @@
+{
+    "name": "phpixie/framework-bundle",
+    "description": "Framework support bundle for PHPixie",
+    "keywords": ["phpixie", "bundle"],
+    "homepage": "http://phpixie.com",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Roman Tsiupa",
+            "email": "draconyster@gmail.com",
+            "homepage": "http://dracony.org"
+        }
+    ],
+    "require": {
+        "phpixie/bundle-framework": "~3.0",
+        "phpixie/bundles": "~3.0",
+        "phpixie/console": "~3.0",
+        "phpixie/migrate": "~3.0"
+    },
+    "require-dev": {
+        "phpixie/test": "~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHPixie\\": "src/PHPixie",
+            "PHPixie\\Tests\\": "tests/PHPixie/Tests"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.x-dev"
+        }
+    }
+}

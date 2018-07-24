@@ -1,0 +1,59 @@
+{
+    "name": "phpixie/framework",
+    "description": "PHPixie Framework",
+    "keywords": ["processors"],
+    "homepage": "http://phpixie.com",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Roman Tsiupa",
+            "email": "draconyster@gmail.com",
+            "homepage": "http://dracony.org"
+        }
+    ],
+    "require": {
+        "phpixie/debug": "~3.0",
+        "phpixie/route": "~3.0",
+        "phpixie/template": "~3.0",
+        "phpixie/filesystem": "~3.0",
+        "phpixie/database": "~3.0",
+        "phpixie/config": "~3.0",
+        "phpixie/orm": "~3.0",
+        "phpixie/slice": "~3.0",
+        "phpixie/processors": "~3.0",
+        "phpixie/http": "~3.0",
+        "phpixie/http-processors": "~3.0",
+        "phpixie/security": "~3.0",
+        "phpixie/auth": "~3.0",
+        "phpixie/auth-orm": "~3.0",
+        "phpixie/auth-http": "~3.0",
+        "phpixie/auth-login": "~3.0",
+        "phpixie/auth-social": "~3.0",
+        "phpixie/auth-processors": "~3.0",
+        "phpixie/paginate": "~3.0",
+        "phpixie/paginate-orm": "~3.0",
+        "phpixie/image": "~3.0",
+        "phpixie/validate": "~3.0",
+        "phpixie/social": "~3.0",
+        "phpixie/cli": "~3.0",
+        "phpixie/console": "~3.0",
+        "phpixie/migrate": "~3.0",
+        "phpixie/cache": "~3.0",
+        "psr/log": "~1.0.2"
+    },
+    "require-dev": {
+        "phpixie/test": "~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHPixie\\": "src/PHPixie",
+            "PHPixie\\Tests\\": "tests/PHPixie/Tests"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.x-dev"
+        }
+    }
+}
